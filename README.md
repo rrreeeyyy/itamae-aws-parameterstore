@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require "itamae/aws/parameterstore"
+
+node[:secrets] = Itamae::Aws::Parameterstore::Store.new
+
+p node[:secrets]['/path/to/parameter']
+```
 
 ## Development
 
