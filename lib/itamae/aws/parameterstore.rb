@@ -2,26 +2,15 @@
 
 require "aws-sdk-ssm"
 require_relative "parameterstore/version"
+require_relative "parameterstore/store"
 
 module Itamae
   module Aws
-    class Parameterstore
-      class Error < StandardError; end
+    def self.Parameterstore
+      Itamae::Aws::Parameterstore::Store.new
+    end
 
-      def initialize
-        @client = ::Aws::SSM::Client.new
-      end
-
-      def [](name)
-        get_parameter_value(name)
-      end
-
-      def get_parameter_value(name)
-        @client.get_parameter({
-          name: name.to_s,
-          with_decryption: true,
-        }).parameter.value
-      end
+    module Parameterstore
     end
   end
 end
