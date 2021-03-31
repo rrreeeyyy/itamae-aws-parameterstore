@@ -1,8 +1,7 @@
 # Itamae::Aws::Parameterstore
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/itamae/aws/parameterstore`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is itamae plugin that provides store from [Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html)
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -38,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/itamae-aws-parameterstore. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/itamae-aws-parameterstore/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/rrreeeyyy/itamae-aws-parameterstore. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/rrreeeyyy/itamae-aws-parameterstore/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -46,4 +45,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Itamae::Aws::Parameterstore project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/itamae-aws-parameterstore/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the Itamae::Aws::Parameterstore project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rrreeeyyy/itamae-aws-parameterstore/blob/main/CODE_OF_CONDUCT.md).
